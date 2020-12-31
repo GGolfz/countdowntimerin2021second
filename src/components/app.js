@@ -8,7 +8,7 @@ const App = () => {
 		second: 59
 	})
 	useEffect(() => {
-		const target = new Date("2021/01/01").getTime();
+		const target = new Date("2022/01/01").getTime();
 		const interval = setInterval(() => {
 			const now = new Date().getTime();
 			const diff = target - now;
@@ -26,7 +26,7 @@ const App = () => {
     <div className="bg-wrap">
       <div className="bg"></div>
       <div id="app">
-        <div className="title">Countdown to 2021</div>
+        <div className="title">Countdown to 2022</div>
         <div className="timer">
           <Box num={timer.day} text="day" />
           <Box num={timer.hour} text="hour" />
