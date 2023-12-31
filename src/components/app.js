@@ -8,7 +8,7 @@ const App = () => {
 		second: 59
 	})
 	useEffect(() => {
-		const target = new Date("2022/01/01").getTime();
+		const target = new Date("2024/01/01").getTime();
 		const interval = setInterval(() => {
 			const now = new Date().getTime();
 			const diff = target - now;
